@@ -5,7 +5,7 @@ export const clientConfig = {
 
   // Themes / Colors
   daisy_theme: "business",
-  logo_color: "#FDC700",
+  logo_color: "#36B300",
   // Set primary / secondary colors in index.css
 
   // Other styling
@@ -13,14 +13,14 @@ export const clientConfig = {
 
 
   // General
-  short_name: "John's Auto Repair",
-  long_name: "John's Auto Repair LLC",
-  phone: "(801) 555-1234",
-  phoneLink: "8015551234",
-  email: "AMR_Auto@gmail.com",
-  address: "1145 Richards St,",
-  addressSecondary: "Salt Lake City, UT 84101",
-  addressFull: "1145 Richards St, Salt Lake City, UT 84101",
+  short_name: "Phipp's Automotive",
+  long_name: "Phipp's Automotive LLC",
+  phone: "(801) 513-1146",
+  phoneLink: "8015131146",
+  email: "phippsautorepair@gmail.com",
+  address: "808 E 1st Ave,",
+  addressSecondary: "Salt Lake City, UT 84103",
+  addressFull: "808 E 1st Ave, Salt Lake City, UT 84103",
 
   // Header
   logo: "/brand_imgs/logo.png",
@@ -58,8 +58,8 @@ export const componentSelection = {
 
 export const landingConfig = {
   landing_img: "/brand_imgs/hero.png",
-  landing_title: "Quality Service at Record Speeds",
-  landing_subtext: "Honest, skilled mechanics serving Salt Lake City and beyond. We keep you running smoothly.",
+  landing_title: "Quality Service Right at Your Home",
+  landing_subtext: "We are a locally owned mobile mechanic service that will strive to satisfy and serve the community with quality service at an affordable price.",
   landing_cta: "GIVE US A CALL",
   landing_type: 0,
 }
@@ -199,15 +199,15 @@ export const reviewsConfig = [
 // <------- CONTACT INFO -------->
 
 export const contactConfig = {
-  phone: "(801) 555-1234",
-  phoneLink: "8015551234",
-  email: "AMR_Auto@gmail.com",
+  phone: "(801) 513-1146",
+  phoneLink: "8015131146",
+  email: "phippsautorepair@gmail.com",
   location: {
-    address: "1145 Richards St,",
-    addressSecondary: "Salt Lake City, UT 84101",
-    googleMapEmbedLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755.7052202371249!2d-111.89263766984047!3d40.74396671929422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f53ab3a61df5%3A0x16439d32409dd44b!2sAction%20Mobile%20Repair!5e0!3m2!1sen!2sus!4v1748289559907!5m2!1sen!2sus",
-    googleMapLink: "https://www.google.com/maps?q=Action+Mobile+Repair&ll=40.7439845,-111.892386",
-    appleMapLink: "https://maps.apple.com/?q=Action+Mobile+Repair&ll=40.7439845,-111.892386"
+    address: "808 E 1st Ave,",
+    addressSecondary: "Salt Lake City, UT 84103",
+    googleMapEmbedLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2852.0261769189833!2d-111.86600676630495!3d40.77045747188815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f563484f582f%3A0xa64e169e8dd5eddd!2sPhipps%20Automotive%20LLC!5e0!3m2!1sen!2sus!4v1749755639030!5m2!1sen!2sus",
+    googleMapLink: "https://www.google.com/maps/place/Phipps+Automotive+LLC/@40.7704575,-111.8660068,17.08z/data=!4m14!1m7!3m6!1s0x8752f563484f582f:0xa64e169e8dd5eddd!2sPhipps+Automotive+LLC!8m2!3d40.7703531!4d-111.865359!16s%2Fg%2F11w4dkx2nt!3m5!1s0x8752f563484f582f:0xa64e169e8dd5eddd!8m2!3d40.7703531!4d-111.865359!16s%2Fg%2F11w4dkx2nt?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D",
+    appleMapLink: "https://maps.apple.com/?ll=40.7703531,-111.865359&q=Phipps%20Automotive%20LLC"
   },
   hours: [
     { day: "Monday", time: "8 AM - 6 PM" },

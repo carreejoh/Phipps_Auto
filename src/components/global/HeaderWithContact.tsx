@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Phone, MapPin } from "lucide-react";
+import { Menu, X, Phone, Mail } from "lucide-react";
 
 import { clientConfig } from "../../client-config";
 import { contactConfig } from "../../client-config";
@@ -30,13 +30,13 @@ const HeaderWithContact: React.FC = () => {
                     {contactConfig.phone}
                 </a>
                 <a href={mapLink} className="ml-2 md:mt-0 -mt-3 flex items-center gap-1 font-medium italic text-base-100 hover:text-black">
-                    <MapPin size={19} />
-                    {clientConfig.addressFull}
+                    <Mail size={19} />
+                    {contactConfig.email}
                 </a>
             </div>
             <div className="h-24 flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-24 xl:px-28 2xl:px-48">
                 <Link to="/" className="">
-                    <img className="" alt="logo" src={clientConfig.logo} />
+                    <h1 className="font-bold text-2xl md:text-4xl text-primary">{clientConfig.long_name}</h1>
                 </Link>
                 {/* Desktop nav */}
                 <nav className="hidden md:flex space-x-4">
